@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be9bd8e2.chunk.css",
+    "main.js": "/static/js/main.72249a8a.chunk.js",
+    "main.js.map": "/static/js/main.72249a8a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a2c07f0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a2c07f0.js.map",
+    "static/js/2.5b4866cc.chunk.js": "/static/js/2.5b4866cc.chunk.js",
+    "static/js/2.5b4866cc.chunk.js.map": "/static/js/2.5b4866cc.chunk.js.map",
+    "static/js/3.7c2e9597.chunk.js": "/static/js/3.7c2e9597.chunk.js",
+    "static/js/3.7c2e9597.chunk.js.map": "/static/js/3.7c2e9597.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.be9bd8e2.chunk.css.map": "/static/css/main.be9bd8e2.chunk.css.map",
+    "static/js/2.5b4866cc.chunk.js.LICENSE.txt": "/static/js/2.5b4866cc.chunk.js.LICENSE.txt",
+    "static/media/banner.1ec820f7.jpg": "/static/media/banner.1ec820f7.jpg",
+    "static/media/givingHand.ec2084e2.png": "/static/media/givingHand.ec2084e2.png",
+    "static/media/green-bg.c9a6bd4a.png": "/static/media/green-bg.c9a6bd4a.png",
+    "static/media/rs_bg.89b43307.png": "/static/media/rs_bg.89b43307.png",
+    "static/media/rsd-bg.1faee998.png": "/static/media/rsd-bg.1faee998.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a2c07f0.js",
+    "static/js/2.5b4866cc.chunk.js",
+    "static/css/main.be9bd8e2.chunk.css",
+    "static/js/main.72249a8a.chunk.js"
+  ]
+}
