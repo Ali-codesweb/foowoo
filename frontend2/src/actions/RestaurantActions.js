@@ -26,7 +26,7 @@ import {
 
 
 
-const URL = 'http://127.0.0.1:8000'
+const URL = 'https://foowoo1.herokuapp.com'
 const user = JSON.parse(localStorage.getItem('userInfo'))
 
 export const ListRestaurants = (url = URL + '/api/') => async (dispatch) => {

@@ -20,7 +20,7 @@ import {
 } from "../constants/userConstants"
 
 
-const URL = 'http://127.0.0.1:8000'
+const URL = 'https://foowoo1.herokuapp.com'
 
 
 
