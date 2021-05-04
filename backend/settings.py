@@ -159,16 +159,13 @@ AUTH_USER_MODEL = 'base.CustomUser'
 PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
+STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
     BASE_DIR / 'frontend2/build/static'
 ]
 MEDIA_ROOT = 'static/images'
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000'
-]
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
-import dj_database_url 
-prod_db  =  dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(prod_db)
+    'http://localhost:3000',
+    'https://foowoo1.herokuapp.com'
+]   
