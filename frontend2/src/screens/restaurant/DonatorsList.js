@@ -18,7 +18,7 @@ function DonatorsList(props) {
         }
     }
     async function donatorsListHandler(command) {
-        const { data } = await axios.get('http://127.0.0.1:8000/api/restaurant/donators-list/', config)
+        const { data } = await axios.get('https://foowoo1.herokuapp.com/api/restaurant/donators-list/', config)
         console.log(data)
         setDonators(data)
     }

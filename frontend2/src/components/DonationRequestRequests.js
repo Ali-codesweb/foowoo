@@ -20,7 +20,7 @@ function DonationRequestRequests({ type }) {
     }
     const [requests, setRequests] = React.useState([])
     const myDonationRequests = async () => {
-        const { data } = await axios.get('http://127.0.0.1:8000/api/restaurant/donation-or-request-requests/', config)
+        const { data } = await axios.get('https://foowoo1.herokuapp.com/api/restaurant/donation-or-request-requests/', config)
         setRequests(data)
     }
 
@@ -63,7 +63,7 @@ function DonationRequestRequests({ type }) {
             ) :
                 requests.map((item, index) => {
                     const acceptDeclineHandler = async (command) => {
-                        const { data } = await axios.post('http://127.0.0.1:8000/api/restaurant/accept-decline-donation-requests/', {
+                        const { data } = await axios.post('https://foowoo1.herokuapp.com/api/restaurant/accept-decline-donation-requests/', {
                             'id': item.id,
                             'serving_id': item.serving_id,
                             'quantity': item.quantity,

@@ -41,7 +41,7 @@ function AddNewServingScreen(props) {
                 Authorization: `Bearer ${user.token}`
             }
         }
-        const { data } = axios.post('http://127.0.0.1:8000/api/restaurant/create-serving/', {
+        const { data } = axios.post('https://foowoo1.herokuapp.com/api/restaurant/create-serving/', {
             name,
             description,
             ingredients,

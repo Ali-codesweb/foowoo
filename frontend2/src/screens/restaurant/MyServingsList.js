@@ -8,7 +8,7 @@ function MyServingsList(props) {
 
     const [servings, setServings] = React.useState([])
 
-    const URL = 'http://127.0.0.1:8000'
+    const URL = 'https://foowoo1.herokuapp.com'
     const user = useSelector(state => state.user.userInfo)
     const myServings = async () => {
         const config = {
@@ -61,7 +61,7 @@ function MyServingsList(props) {
                         }
                     }
                     const deleteServingHandler = async () => {
-                        const { data } = await axios.delete(`http://127.0.0.1:8000/api/restaurant/delete-serving/${item.id}`, config)
+                        const { data } = await axios.delete(`https://foowoo1.herokuapp.com/api/restaurant/delete-serving/${item.id}`, config)
                         window.alert(data.message)
                         const newArr = servings.filter(e => e.id != item.id)
                         setServings(newArr)

@@ -9,7 +9,7 @@ function PasswordChange() {
     const [newPassword, setNewPassword] = React.useState('')
     const [newPasswordConfirm, setNewPasswordConfirm] = React.useState('')
     const user = useSelector(state => state.userReducer?.user ? state.userReducer?.user : state.userReducer?.user?.user)
-    const URL = 'http://127.0.0.1:8000'
+    const URL = 'https://foowoo1.herokuapp.com'
     const currentPasswordHandler = (e) => {
         setCurrentPassword(e.target.value)
     }

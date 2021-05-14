@@ -30,7 +30,7 @@ function RestaurantDetails(props) {
                 dispatch(ListRestaurants())
             }
             else if (number <= roundedNumber) {
-                dispatch(ListRestaurants(`http://127.0.0.1:8000/api/?page=${roundedNumber}`))
+                dispatch(ListRestaurants(`https://foowoo1.herokuapp.com/api/?page=${roundedNumber}`))
             }
             console.log('triggered')
         }

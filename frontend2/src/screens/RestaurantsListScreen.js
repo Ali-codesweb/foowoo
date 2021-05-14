@@ -76,12 +76,12 @@ function RestaurantsListScreen() {
                 <div style={{ paddingLeft: '30px', paddingRight: '30px', marginTop: '30px' }} >
                     {restaurants?.previous ? (
                         <Button color='primary' variant='outlined' onClick={() => {
-                            dispatch(ListRestaurants(restaurants?.previous ? restaurants.previous : 'http://127.0.0.1:8000/api/'))
+                            dispatch(ListRestaurants(restaurants?.previous ? restaurants.previous : 'https://foowoo1.herokuapp.com/'))
                         }} >Previous  page</Button>
                     ) : null}
                     {restaurants?.next ? (<Button color='primary' variant='outlined' onClick={() => {
                         // setPagination(prevState => prevState + 1)
-                        dispatch(ListRestaurants(restaurants?.next ? restaurants.next : 'http://127.0.0.1:8000/api/'))
+                        dispatch(ListRestaurants(restaurants?.next ? restaurants.next : 'https://foowoo1.herokuapp.com/'))
                     }} >Next page</Button>) : null}
                 </div>
             </Grid>
