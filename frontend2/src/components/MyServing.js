@@ -34,7 +34,7 @@ function MyServing({ item, deleteServingHandler }) {
     const saveHandler = async () => {
         setEnabled(!enabled)
         setSaveBtn(!saveBtn)
-        const { data } = await axios.put('http://127.0.0.1:8000/api/restaurant/my-servings/update/', {
+        const { data } = await axios.put('https://foowoo1.herokuapp.com/api/restaurant/my-servings/update/', {
             'serving_id': item.id,
             'name': name,
             'description': description,
