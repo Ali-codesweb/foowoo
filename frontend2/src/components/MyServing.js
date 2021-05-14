@@ -127,7 +127,7 @@ function MyServing({ item, deleteServingHandler }) {
 
     return (
         <Grid item xs={12} sm={6} md={4} direction='row' className={classes.main} >
-            <img src={`http://127.0.0.1:8000${item.image}`}
+            <img src={`https://foowoo1.herokuapp.com${item.image}`}
                 alt={item.image} className={classes.image} ></img>
             <TextField className={classes.name} value={name} disabled={enabled} onChange={(e) => setName(e.target.value)} />
             <TextareaAutosize className={classes.description} value={description} disabled={enabled} onChange={(e) => setDescription(e.target.value)} />
