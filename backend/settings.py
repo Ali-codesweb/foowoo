@@ -165,4 +165,3 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = 'static/images'
 CORS_ALLOWED_ORIGINS =True
 # 'http://localhost:3000',
-#     'https://foowoo1.herokuapp.com'
