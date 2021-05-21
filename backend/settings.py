@@ -27,8 +27,8 @@ SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['foowoo1.herokuapp.com','127.0.0.1']
-
+ALLOWED_HOSTS = ['*']
+# foowoo1.herokuapp.com','127.0.0.1
 
 # Application definition
 
@@ -163,7 +163,6 @@ STATICFILES_DIRS = [
     BASE_DIR / 'frontend2/build/static'
 ]
 MEDIA_ROOT = 'static/images'
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'https://foowoo1.herokuapp.com'
-]   
+CORS_ALLOWED_ORIGINS =True
+# 'http://localhost:3000',
+#     'https://foowoo1.herokuapp.com'
