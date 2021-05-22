@@ -1,12 +1,10 @@
 import { Button, Grid, TextField } from '@material-ui/core'
+import { makeStyles } from '@material-ui/styles'
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { Link } from 'react-router-dom'
-import { restLogin } from '../actions/RestaurantActions'
-import { makeStyles } from '@material-ui/styles'
-import greenBg from '../allImages/green-bg.png'
+import { Link, useHistory } from 'react-router-dom'
 import givingHand from '../allImages/givingHand.png'
-import { useHistory } from 'react-router-dom';
+import greenBg from '../allImages/green-bg.png'
 
 function LoginScreenComp(props) {
     const [email, setEmail] = React.useState('')

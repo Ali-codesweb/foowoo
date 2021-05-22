@@ -1,10 +1,6 @@
-import { Button, Grid, makeStyles, TextField, Typography } from '@material-ui/core'
 import React from 'react'
-import greenBg from '../allImages/green-bg.png'
-import givingHand from '../allImages/givingHand.png'
-import { useDispatch, useSelector } from 'react-redux'
-import { login } from '../actions/userActions';
 import { Link } from 'react-router-dom'
+import { login } from '../actions/userActions'
 import LoginScreenComp from '../components/LoginScreenComp'
 
 function LoginScreen(props) {

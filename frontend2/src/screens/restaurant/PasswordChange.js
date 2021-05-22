@@ -1,8 +1,8 @@
-import { Button, makeStyles, TextField } from '@material-ui/core'
-import React from 'react'
-import TextFieldComp from '../../components/TextFieldComp'
+import { Button, makeStyles } from '@material-ui/core'
 import axios from 'axios'
+import React from 'react'
 import { useSelector } from 'react-redux'
+import TextFieldComp from '../../components/TextFieldComp'
 
 function PasswordChange() {
     const [currentPassword, setCurrentPassword] = React.useState('')

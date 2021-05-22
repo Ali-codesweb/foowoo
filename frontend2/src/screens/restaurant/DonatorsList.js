@@ -1,11 +1,10 @@
-import axios from 'axios'
-import React from 'react'
-import { useSelector } from 'react-redux'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
-import CustomContainer from '../../components/CustomContainer'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom';
+import axios from 'axios';
+import React from 'react';
+import { useSelector } from 'react-redux';
+import CustomContainer from '../../components/CustomContainer';
 
 function DonatorsList(props) {
     const user = useSelector(state => state.user.userInfo)
