@@ -163,5 +163,5 @@ STATICFILES_DIRS = [
     BASE_DIR / 'frontend2/build/static'
 ]
 MEDIA_ROOT = 'static/images'
-CORS_ALLOWED_ORIGINS =True
+CORS_ALLOWED_ORIGINS =['https://foowoo1.herokuapp.com']
 # 'http://localhost:3000',
